@@ -1,1 +1,3 @@
-This is the readme. You have to read it.
+## <ins>**SEQTA Redesign** by Harry Breslin, Oscar Breslin and Alexander McMillan</ins>
+
+This is the readme for our SEQTA Redesign project.
