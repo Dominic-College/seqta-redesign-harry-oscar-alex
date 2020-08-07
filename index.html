@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>SEQTA Redesign</title>
+	</head>
+	<body>
+		Select some text and click on word count
+	<a href="javascript:(function(){var t;if (window.getSelection) t = window.getSelection();else if (document.selection) t = document.selection.createRange();if (t.text != undefined) t = t.text;if(!t || t == &quot;&quot;){ a = document.getElementsByTagName(&quot;textarea&quot;); for(i=0; i<a.length; i++) {  if(a[i].selectionStart != undefined &amp;&amp; a[i].selectionStart != a[i].selectionEnd)  {    t = a[i].value.substring(a[i].selectionStart, a[i].selectionEnd);    break;  } }}if(!t || t == &quot;&quot;)alert(&quot;Please select some text&quot;);else alert(&quot;Selected word count: &quot; + t.toString().match(/(\S+)/g).length);})()">word count</a>
+	</body>
+</html>
