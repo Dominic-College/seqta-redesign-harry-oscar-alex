@@ -4,7 +4,7 @@
 
 html {
 	background-color:#A0BFB3;
-	padding:32px;
+	padding:64px;
 }
 
 body {
@@ -12,19 +12,38 @@ body {
 	margin:0;
 }
 
-article {
+article section {
+	padding:8px;
+	margin-bottom:16px;
 } 
 
 article h2 {
-	margin:inherit;
+	margin:0;
 }
+
 article p {
-	padding:4px;
-	margin:inherit;
+	margin:0;
+}
+
+button {
+	padding:4px 6px;
+	background-color:rgba(0,0,0,0.05);
+	border:3px #000000 solid;
+	border-radius:4px;
+	font:inherit;
+}
+
+button:hover {
+	background-color:rgba(0,0,0,0.15);
+	cursor:pointer;
 }
 
 .longcat {
 	background-image:url(../img/long_cat.png);
 	background-repeat:no-repeat;
 	background-size:100% 100%;
+}
+
+.hidden {
+	display:none;
 }
