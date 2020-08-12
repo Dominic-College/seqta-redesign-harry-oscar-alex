@@ -8,4 +8,14 @@ html {
 
 body {
 	font-family:Century,"Calibri Light",sans-serif;
+	margin:16px;
+}
+
+div.longcat {
+	width:649px;
+	height:106px;
+}
+
+.longcat {
+	background-image:url(../img/long_cat.png);
 }
