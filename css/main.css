@@ -4,18 +4,27 @@
 
 html {
 	background-color:#A0BFB3;
+	padding:32px;
 }
 
 body {
-	font-family:Century,"Calibri Light",sans-serif;
-	margin:16px;
+	font-family:"Lucida Sans Unicode","Lucida Grande",sans-serif;
+	margin:0;
 }
 
-div.longcat {
-	width:649px;
-	height:106px;
+article {
+} 
+
+article h2 {
+	margin:inherit;
+}
+article p {
+	padding:4px;
+	margin:inherit;
 }
 
 .longcat {
 	background-image:url(../img/long_cat.png);
+	background-repeat:no-repeat;
+	background-size:100% 100%;
 }
