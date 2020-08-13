@@ -38,12 +38,18 @@ button:hover {
 	cursor:pointer;
 }
 
+.hidden {
+	display:none;
+}
+
 .longcat {
-	background-image:url(../img/long_cat.png);
+	background-image:url('../img/long_cat.png');
 	background-repeat:no-repeat;
 	background-size:100% 100%;
 }
 
-.hidden {
-	display:none;
+.shreak {
+	background-image:url('../img/shreak.jpg');
+	background-repeat:no-repeat;
+	background-size:100% 100%;
 }
