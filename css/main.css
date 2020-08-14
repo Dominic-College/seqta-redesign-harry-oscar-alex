@@ -42,6 +42,10 @@ button:hover {
 	display:none;
 }
 
+.longcatimg {
+	margin-top:32px;
+}
+
 .longcat {
 	background-image:url('../img/long_cat.png');
 	background-repeat:no-repeat;
