@@ -42,14 +42,29 @@ button:hover {
 	display:none;
 }
 
-.longcatimg {
-	margin-top:32px;
+#longcatShowDiv:not(.hidden) {
+	width:75.375px;
+	height:39px;
+	display:inline-block;
+}
+
+#longcatShowDiv:hover {
+	cursor:pointer;
 }
 
 .longcat {
 	background-image:url('../img/long_cat.png');
 	background-repeat:no-repeat;
 	background-size:100% 100%;
+}
+
+.longcatimg {
+	margin-top:32px;
+}
+
+.longcatimg img {
+	width:50%;
+	display:inline-block;
 }
 
 .shreak {
