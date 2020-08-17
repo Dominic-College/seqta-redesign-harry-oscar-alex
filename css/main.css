@@ -2,14 +2,11 @@
 	box-sizing:border-box;
 }
 
-html {
-	background-color:#A0BFB3;
-	padding:64px;
-}
-
 body {
 	font-family:"Lucida Sans Unicode","Lucida Grande",sans-serif;
-	margin:0;
+	padding:64px;
+	background-color:rgb(30,52,93);
+	color:rgb(255,255,255);
 }
 
 article section {
