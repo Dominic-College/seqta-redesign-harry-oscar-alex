@@ -68,6 +68,24 @@ button:hover {
 	display:inline-block;
 }
 
+.longcatfooter span {
+	display:inline-block;
+	width:100%;
+}
+
+.longcatfooter a {
+	display:block;
+	width:100%;
+	margin:auto;
+	color:inherit;
+	text-decoration:inherit;
+	font:inherit;
+}
+
+.longcatfooter a:hover {
+	font-weight:bold;
+}
+
 .shreak {
 	background-image:url('../img/shreak.jpg');
 	background-repeat:no-repeat;
