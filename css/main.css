@@ -39,6 +39,10 @@ button:hover {
 	display:none;
 }
 
+.centre {
+	text-align:center;
+}
+
 #longcatShowDiv:not(.hidden) {
 	width:75.375px;
 	height:39px;
@@ -68,4 +72,10 @@ button:hover {
 	background-image:url('../img/shreak.jpg');
 	background-repeat:no-repeat;
 	background-size:100% 100%;
+}
+
+.flashgame {
+	display:block;
+	margin:auto;
+	border:5px solid rgba(255,255,255,0.1);
 }
