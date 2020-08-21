@@ -1,12 +1,18 @@
+@import url(https://use.typekit.net/efj7gzu.css);
+
 * {
 	box-sizing:border-box;
 }
 
 body {
-	font-family:"Lucida Sans Unicode","Lucida Grande",sans-serif;
+	font-family:"Abode Garamond Pro",serif;
 	padding:64px;
 	background-color:rgb(30,52,93);
 	color:rgb(255,255,255);
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family:"Trajan Pro 3",serif;
 }
 
 article section {
