@@ -5,14 +5,22 @@
 }
 
 body {
-	font-family:"Abode Garamond Pro",serif;
+	font-family:"Calibri Light",Verdana,sans-serif;
 	padding:64px;
-	background-color:rgb(30,52,93);
-	color:rgb(255,255,255);
+	margin:0;
+	background-color:#1e345d;
+	color:white;
 }
 
 h1,h2,h3,h4,h5,h6 {
-	font-family:"Trajan Pro 3",serif;
+	font-family:trajan-pro-3,serif;
+	text-shadow:3px 3px 8px black;
+}
+
+p {
+	font-weight:100;
+	font-style:normal;
+	font-size:1.3em;
 }
 
 article section {
