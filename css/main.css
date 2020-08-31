@@ -23,6 +23,16 @@ p {
 	font-size:1.3em;
 }
 
+a {
+	color:inherit;
+	font:inherit;
+	text-decoration:underline;
+}
+
+a:hover {
+	font-weight:bold;
+}
+
 article section {
 	padding:8px 0;
 	margin-bottom:16px;
