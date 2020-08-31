@@ -28,7 +28,7 @@ article section {
 	margin-bottom:16px;
 } 
 
-article h2 {
+article h2,h3,h4,h5,h6 {
 	margin:0;
 }
 
