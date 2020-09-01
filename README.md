@@ -1,8 +1,8 @@
 # SEQTA Redesign
 Repository for our SEQTA Redesign project.
 
-Our SEQTA page is about **study skills** and contains 5 sections:
-- Introduction
+Our website is about **study skills** and contains 5 pages:
+- Study Skills (landing page and introduction)
 - Homework
 - Assignments and Projects
 - Tests and Exams
