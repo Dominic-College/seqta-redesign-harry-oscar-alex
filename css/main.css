@@ -78,7 +78,7 @@ button:hover {
 }
 
 .longcat {
-	background-image:url('../img/long_cat.png');
+	background-image:url('../images/long_cat.png');
 	background-repeat:no-repeat;
 	background-size:100% 100%;
 }
@@ -111,7 +111,7 @@ button:hover {
 }
 
 .shreak {
-	background-image:url('../img/shreak.jpg');
+	background-image:url('../images/shreak.jpg');
 	background-repeat:no-repeat;
 	background-size:100% 100%;
 }
