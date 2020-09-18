@@ -45,6 +45,8 @@ article section {
 
 article section.introduction {
 	text-align:center;
+	width:70%;
+	margin:auto;
 	margin-bottom:96px;
 }
 
