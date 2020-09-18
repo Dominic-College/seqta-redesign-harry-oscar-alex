@@ -38,6 +38,10 @@ a:hover {
 	text-shadow:2px 2px 2px black;
 }
 
+a>h2:hover {
+	text-shadow:5px 5px 10px black;
+}
+
 article section {
 	padding:8px 0;
 	margin-bottom:64px;
@@ -65,11 +69,16 @@ article img {
 	box-shadow:4px 4px 4px rgba(0,0,0,0.5);
 }
 
+article a>img:hover {
+	box-shadow:6px 6px 6px rgba(0,0,0,0.7);
+}
+
 article .sectiontext_right {
 	display:inline-block;
 	width:55%;
 	margin-left:16px;
 	vertical-align:top;
+	padding:8px;
 }
 
 article .sectiontext_left {
@@ -77,6 +86,7 @@ article .sectiontext_left {
 	width:55%;
 	margin-right:16px;
 	vertical-align:top;
+	padding:8px;
 }
 
 button {
