@@ -17,10 +17,14 @@ h1,h2,h3,h4,h5,h6 {
 	text-shadow:3px 3px 8px black;
 }
 
+h1 {font-size:3em;}
+h2 {font-size:2em;}
+h3 {font-size:1.7em;}
+
 p {
 	font-weight:100;
 	font-style:normal;
-	font-size:1.3em;
+	font-size:1.6em;
 }
 
 a {
@@ -45,6 +49,18 @@ article h2,h3,h4,h5,h6 {
 
 article p {
 	margin:0;
+}
+
+article img {
+	display:inline-block;
+	width:40%;
+}
+
+article .sectiontext-right {
+	display:inline-block;
+	width:55%;
+	margin-left:16px;
+	vertical-align:top;
 }
 
 button {
