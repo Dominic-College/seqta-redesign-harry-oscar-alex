@@ -40,8 +40,13 @@ a:hover {
 
 article section {
 	padding:8px 0;
-	margin-bottom:16px;
-} 
+	margin-bottom:64px;
+}
+
+article section.introduction {
+	text-align:center;
+	margin-bottom:96px;
+}
 
 article h2,h3,h4,h5,h6 {
 	margin:0;
@@ -54,12 +59,21 @@ article p {
 article img {
 	display:inline-block;
 	width:40%;
+	border-radius:10px;
+	box-shadow:4px 4px 4px rgba(0,0,0,0.5);
 }
 
-article .sectiontext-right {
+article .sectiontext_right {
 	display:inline-block;
 	width:55%;
 	margin-left:16px;
+	vertical-align:top;
+}
+
+article .sectiontext_left {
+	display:inline-block;
+	width:55%;
+	margin-right:16px;
 	vertical-align:top;
 }
 
