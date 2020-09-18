@@ -102,6 +102,12 @@ button:hover {
 	cursor:pointer;
 }
 
+footer a {
+	display:block;
+	margin:auto;
+	font-size:1.8em;
+}
+
 .hidden {
 	display:none;
 }
